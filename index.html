@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab || www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game in HTML CSS & JavaScript</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1> Number Guessing game </h1>
+      <h4>
+      Show your Guessing skill
+       </h4>
+    </div>
+    <div class="text2">
+      <h5>Try and Guess a Random Number Between 1 to 100</h5>
+      <h5>You Have 10 Attempts to Guess The Right Number</h5>
+
+    </div>
+      <div class="main">
+        
+   <!-- image slider  -->
+        <div class="main">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  src="image/chisty.jpg" class="d-block w-100" alt="Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Aashiq UR Rahman Chisty</h5>
+                  <p>Team Leader</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/asif.jpg" class="d-block w-100" alt="Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Md Asif</h5>
+                  <p>Team Member</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/ab-2.jpg" class="d-block w-100" alt="Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Abdur Rahman</h5>
+                  <p>Team Member</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/Sajol2.jpg" class="d-block w-100" alt="Image 4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Habibul Bashar SajoL</h5>
+                  <p>Team Member</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            
+          </div>
+          
+        </div>
+        
+  
+
+      
+      <div class="wrapper">
+        <header>Guess any one number from 1 to 100</header>
+        
+        <div class="input-field">
+          <input type="number" />
+          <button id="button">Check</button>
+          <p class="guess"></p>
+          <p id="p"></p>
+        </div>
+        <p class="chances2">You have <span class="chances">10</span> chances</p>
+      </div>
+    </div>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
